@@ -14,8 +14,9 @@ class CacheFactory
 
         if (file_exists($classFilePatch)) {
             include_once $classFilePatch;
+            return new $className($setting);
+        } else {
+            throw new Exception('Driver ' . $className . ' not found.');
         }
-
-        return new $className($setting);
     }
 }
