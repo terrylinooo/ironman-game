@@ -9,4 +9,4 @@ $cache = new CacheRedis($setting);
 
 $cache->set('foo', 'bar la');
 
-echo $cache->get('foo');
+echo $cache->get('foo')  .  "\n";

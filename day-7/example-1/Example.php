@@ -14,4 +14,4 @@ $cache = new Cache($setting);
 
 $cache->set('foo', 'bar222');
 
-echo $cache->get('foo');
+echo $cache->get('foo') .  "\n";
