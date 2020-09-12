@@ -15,8 +15,8 @@
 - [Day 8 - PHP 設計模式：依賴注入 (Dependency Injection)](https://ithelp.ithome.com.tw/articles/10235033)
 - [Day 9 - PHP 設計模式：觀察者 (Observer)](https://ithelp.ithome.com.tw/articles/10235264)
 - [Day 10 - PHP 建議規範 (PSR)](https://ithelp.ithome.com.tw/articles/10235417)
-- Day 11
-- Day 12
+- [Day 11 - PHP 程式碼風格：PSR-1, PSR-12](https://ithelp.ithome.com.tw/articles/10235791)
+- [Day 12 - PHP 自動載入機制：PSR-4](https://ithelp.ithome.com.tw/articles/10236101)
 - Day 13
 - Day 14
 - Day 15
