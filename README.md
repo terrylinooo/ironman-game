@@ -17,9 +17,9 @@
 - [Day 10 - PHP 建議規範 (PSR)](https://ithelp.ithome.com.tw/articles/10235417)
 - [Day 11 - PHP 程式碼風格：PSR-1, PSR-12](https://ithelp.ithome.com.tw/articles/10235791)
 - [Day 12 - PHP 自動載入機制：PSR-4](https://ithelp.ithome.com.tw/articles/10236101)
-- Day 13
-- Day 14
-- Day 15
+- [Day 13 - PHP HTTP 通訊相關介面：PSR-7, PSR-15, PSR-17](https://ithelp.ithome.com.tw/articles/10236390)
+- [Day 14 - 發佈 Composer 套件的事前準備](https://ithelp.ithome.com.tw/articles/10236831)
+- [Day 15 - PHP 套件設計實戰 (1) 決定主題](https://ithelp.ithome.com.tw/articles/10237307)
 - Day 16
 - Day 17
 - Day 18
