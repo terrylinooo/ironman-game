@@ -21,7 +21,7 @@
 - [Day 14 - 發佈 Composer 套件的事前準備](https://ithelp.ithome.com.tw/articles/10236831)
 - [Day 15 - PHP 套件設計實戰 (1) 決定主題](https://ithelp.ithome.com.tw/articles/10237307)
 - [Day 16 - PHP 套件設計實戰 (2) 介面及目錄結構](https://ithelp.ithome.com.tw/articles/10238050)
-- Day 17
+- [Day 17 - PHP 套件設計實戰 (3) 模擬使用情境](https://ithelp.ithome.com.tw/articles/10238839)
 - Day 18
 - Day 19
 - Day 20
