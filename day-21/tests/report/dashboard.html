@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\terrylin\data\simple-cache\src\SimpleCache</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=".css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/style.css" rel="stylesheet" type="text/css">
+  <link href=".css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">D:\terrylin\data\simple-cache\src\SimpleCache</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Cache.php.html#21">Shieldon\SimpleCache\Cache</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/File.php.html#31">Shieldon\SimpleCache\Driver\File</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Mock.php.html#21">Shieldon\SimpleCache\Driver\Mock</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#28">Shieldon\SimpleCache\Driver\Redis</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Sqlite.php.html#23">Shieldon\SimpleCache\Driver\Sqlite</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertTrait.php.html#23">AssertTrait</a></td><td class="text-right">35%</td></tr>
+       <tr><td><a href="CacheProvider.php.html#22">Shieldon\SimpleCache\CacheProvider</a></td><td class="text-right">86%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Driver/Redis.php.html#28">Shieldon\SimpleCache\Driver\Redis</a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="Driver/File.php.html#31">Shieldon\SimpleCache\Driver\File</a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="Cache.php.html#21">Shieldon\SimpleCache\Cache</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="AssertTrait.php.html#23">AssertTrait</a></td><td class="text-right">67</td></tr>
+       <tr><td><a href="Driver/Mock.php.html#21">Shieldon\SimpleCache\Driver\Mock</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Driver/Sqlite.php.html#23">Shieldon\SimpleCache\Driver\Sqlite</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="CacheProvider.php.html#22">Shieldon\SimpleCache\CacheProvider</a></td><td class="text-right">28</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Cache.php.html#37"><abbr title="Shieldon\SimpleCache\Cache::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#149"><abbr title="Shieldon\SimpleCache\Driver\Redis::doDelete">doDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Mock.php.html#81"><abbr title="Shieldon\SimpleCache\Driver\Mock::doClear">doClear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Mock.php.html#95"><abbr title="Shieldon\SimpleCache\Driver\Mock::doHas">doHas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#44"><abbr title="Shieldon\SimpleCache\Driver\Redis::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#71"><abbr title="Shieldon\SimpleCache\Driver\Redis::connect">connect</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#103"><abbr title="Shieldon\SimpleCache\Driver\Redis::doGet">doGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#125"><abbr title="Shieldon\SimpleCache\Driver\Redis::doSet">doSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#159"><abbr title="Shieldon\SimpleCache\Driver\Redis::doClear">doClear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Mock.php.html#51"><abbr title="Shieldon\SimpleCache\Driver\Mock::doSet">doSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#179"><abbr title="Shieldon\SimpleCache\Driver\Redis::doHas">doHas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#201"><abbr title="Shieldon\SimpleCache\Driver\Redis::getKeyName">getKeyName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Sqlite.php.html#42"><abbr title="Shieldon\SimpleCache\Driver\Sqlite::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Sqlite.php.html#58"><abbr title="Shieldon\SimpleCache\Driver\Sqlite::doClear">doClear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Sqlite.php.html#71"><abbr title="Shieldon\SimpleCache\Driver\Sqlite::rebuild">rebuild</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertTrait.php.html#101"><abbr title="AssertTrait::assertDirectoryWritable">assertDirectoryWritable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cache.php.html#51"><abbr title="Shieldon\SimpleCache\Cache::get">get</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Mock.php.html#69"><abbr title="Shieldon\SimpleCache\Driver\Mock::doDelete">doDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/Mock.php.html#32"><abbr title="Shieldon\SimpleCache\Driver\Mock::doGet">doGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cache.php.html#107"><abbr title="Shieldon\SimpleCache\Cache::deleteMultiple">deleteMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cache.php.html#59"><abbr title="Shieldon\SimpleCache\Cache::set">set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cache.php.html#67"><abbr title="Shieldon\SimpleCache\Cache::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cache.php.html#75"><abbr title="Shieldon\SimpleCache\Cache::clear">clear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cache.php.html#83"><abbr title="Shieldon\SimpleCache\Cache::has">has</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cache.php.html#91"><abbr title="Shieldon\SimpleCache\Cache::getMultiple">getMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/File.php.html#156"><abbr title="Shieldon\SimpleCache\Driver\File::getFilePath">getFilePath</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Cache.php.html#99"><abbr title="Shieldon\SimpleCache\Cache::setMultiple">setMultiple</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/File.php.html#48"><abbr title="Shieldon\SimpleCache\Driver\File::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/File.php.html#64"><abbr title="Shieldon\SimpleCache\Driver\File::doGet">doGet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/File.php.html#87"><abbr title="Shieldon\SimpleCache\Driver\File::doSet">doSet</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/File.php.html#112"><abbr title="Shieldon\SimpleCache\Driver\File::doDelete">doDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/File.php.html#124"><abbr title="Shieldon\SimpleCache\Driver\File::doClear">doClear</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Driver/File.php.html#144"><abbr title="Shieldon\SimpleCache\Driver\File::doHas">doHas</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AssertTrait.php.html#34"><abbr title="AssertTrait::assertArgumentString">assertArgumentString</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="AssertTrait.php.html#55"><abbr title="AssertTrait::assertArgumentIterable">assertArgumentIterable</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="CacheProvider.php.html#146"><abbr title="Shieldon\SimpleCache\CacheProvider::isExpired">isExpired</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="AssertTrait.php.html#76"><abbr title="AssertTrait::assertValidTypeOfTtl">assertValidTypeOfTtl</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="AssertTrait.php.html#125"><abbr title="AssertTrait::assertSettingFields">assertSettingFields</abbr></a></td><td class="text-right">57%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Driver/Redis.php.html#71"><abbr title="Shieldon\SimpleCache\Driver\Redis::connect">connect</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Driver/File.php.html#124"><abbr title="Shieldon\SimpleCache\Driver\File::doClear">doClear</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Cache.php.html#37"><abbr title="Shieldon\SimpleCache\Cache::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#159"><abbr title="Shieldon\SimpleCache\Driver\Redis::doClear">doClear</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AssertTrait.php.html#101"><abbr title="AssertTrait::assertDirectoryWritable">assertDirectoryWritable</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#44"><abbr title="Shieldon\SimpleCache\Driver\Redis::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="CacheProvider.php.html#146"><abbr title="Shieldon\SimpleCache\CacheProvider::isExpired">isExpired</abbr></a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="AssertTrait.php.html#76"><abbr title="AssertTrait::assertValidTypeOfTtl">assertValidTypeOfTtl</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/Sqlite.php.html#71"><abbr title="Shieldon\SimpleCache\Driver\Sqlite::rebuild">rebuild</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/Sqlite.php.html#42"><abbr title="Shieldon\SimpleCache\Driver\Sqlite::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#179"><abbr title="Shieldon\SimpleCache\Driver\Redis::doHas">doHas</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/Redis.php.html#103"><abbr title="Shieldon\SimpleCache\Driver\Redis::doGet">doGet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/Mock.php.html#32"><abbr title="Shieldon\SimpleCache\Driver\Mock::doGet">doGet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/File.php.html#112"><abbr title="Shieldon\SimpleCache\Driver\File::doDelete">doDelete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/File.php.html#87"><abbr title="Shieldon\SimpleCache\Driver\File::doSet">doSet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/File.php.html#64"><abbr title="Shieldon\SimpleCache\Driver\File::doGet">doGet</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Driver/File.php.html#48"><abbr title="Shieldon\SimpleCache\Driver\File::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AssertTrait.php.html#125"><abbr title="AssertTrait::assertSettingFields">assertSettingFields</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="AssertTrait.php.html#34"><abbr title="AssertTrait::assertArgumentString">assertArgumentString</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="AssertTrait.php.html#55"><abbr title="AssertTrait::assertArgumentIterable">assertArgumentIterable</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.9</a> with <a href="https://xdebug.org/">Xdebug 2.7.2</a> and <a href="https://phpunit.de/">PHPUnit 7.5.20</a> at Mon Sep 21 12:46:36 UTC 2020.</small>
+    </p>
+   </footer>
+  </div>
+  <script src=".js/jquery.min.js" type="text/javascript"></script>
+  <script src=".js/d3.min.js" type="text/javascript"></script>
+  <script src=".js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([5,0,0,0,1,0,0,0,0,1,0,5], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([33,0,0,0,2,0,3,0,0,0,0,22], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,11,"<a href=\"Cache.php.html#21\">Shieldon\\SimpleCache\\Cache<\/a>"],[86.66666666666667,27,"<a href=\"CacheProvider.php.html#22\">Shieldon\\SimpleCache\\CacheProvider<\/a>"],[0,14,"<a href=\"Driver\/File.php.html#31\">Shieldon\\SimpleCache\\Driver\\File<\/a>"],[0,6,"<a href=\"Driver\/Mock.php.html#21\">Shieldon\\SimpleCache\\Driver\\Mock<\/a>"],[100,6,"<a href=\"Driver\/Mysql.php.html#24\">Shieldon\\SimpleCache\\Driver\\Mysql<\/a>"],[0,18,"<a href=\"Driver\/Redis.php.html#28\">Shieldon\\SimpleCache\\Driver\\Redis<\/a>"],[0,5,"<a href=\"Driver\/Sqlite.php.html#23\">Shieldon\\SimpleCache\\Driver\\Sqlite<\/a>"],[100,0,"<a href=\"Exception\/CacheArgumentException.php.html#18\">Shieldon\\SimpleCache\\Exception\\CacheArgumentException<\/a>"],[100,0,"<a href=\"Exception\/CacheException.php.html#18\">Shieldon\\SimpleCache\\Exception\\CacheException<\/a>"],[35.294117647058826,14,"<a href=\"AssertTrait.php.html#23\">AssertTrait<\/a>"],[100,0,"<a href=\"CacheWarmingTrait.php.html#18\">CacheWarmingTrait<\/a>"],[100,8,"<a href=\"Driver\/SqlTrait.php.html#22\">SqlTrait<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"Cache.php.html#37\">Shieldon\\SimpleCache\\Cache::__construct<\/a>"],[0,1,"<a href=\"Cache.php.html#51\">Shieldon\\SimpleCache\\Cache::get<\/a>"],[0,1,"<a href=\"Cache.php.html#59\">Shieldon\\SimpleCache\\Cache::set<\/a>"],[0,1,"<a href=\"Cache.php.html#67\">Shieldon\\SimpleCache\\Cache::delete<\/a>"],[0,1,"<a href=\"Cache.php.html#75\">Shieldon\\SimpleCache\\Cache::clear<\/a>"],[0,1,"<a href=\"Cache.php.html#83\">Shieldon\\SimpleCache\\Cache::has<\/a>"],[0,1,"<a href=\"Cache.php.html#91\">Shieldon\\SimpleCache\\Cache::getMultiple<\/a>"],[0,1,"<a href=\"Cache.php.html#99\">Shieldon\\SimpleCache\\Cache::setMultiple<\/a>"],[0,1,"<a href=\"Cache.php.html#107\">Shieldon\\SimpleCache\\Cache::deleteMultiple<\/a>"],[100,3,"<a href=\"CacheProvider.php.html#29\">Shieldon\\SimpleCache\\CacheProvider::get<\/a>"],[100,1,"<a href=\"CacheProvider.php.html#48\">Shieldon\\SimpleCache\\CacheProvider::set<\/a>"],[100,1,"<a href=\"CacheProvider.php.html#61\">Shieldon\\SimpleCache\\CacheProvider::delete<\/a>"],[100,1,"<a href=\"CacheProvider.php.html#71\">Shieldon\\SimpleCache\\CacheProvider::clear<\/a>"],[100,2,"<a href=\"CacheProvider.php.html#79\">Shieldon\\SimpleCache\\CacheProvider::has<\/a>"],[100,2,"<a href=\"CacheProvider.php.html#93\">Shieldon\\SimpleCache\\CacheProvider::getMultiple<\/a>"],[100,3,"<a href=\"CacheProvider.php.html#109\">Shieldon\\SimpleCache\\CacheProvider::setMultiple<\/a>"],[100,3,"<a href=\"CacheProvider.php.html#125\">Shieldon\\SimpleCache\\CacheProvider::deleteMultiple<\/a>"],[50,6,"<a href=\"CacheProvider.php.html#146\">Shieldon\\SimpleCache\\CacheProvider::isExpired<\/a>"],[100,1,"<a href=\"CacheProvider.php.html#187\">Shieldon\\SimpleCache\\CacheProvider::doGet<\/a>"],[100,1,"<a href=\"CacheProvider.php.html#199\">Shieldon\\SimpleCache\\CacheProvider::doSet<\/a>"],[100,1,"<a href=\"CacheProvider.php.html#208\">Shieldon\\SimpleCache\\CacheProvider::doDelete<\/a>"],[100,1,"<a href=\"CacheProvider.php.html#215\">Shieldon\\SimpleCache\\CacheProvider::doClear<\/a>"],[100,1,"<a href=\"CacheProvider.php.html#224\">Shieldon\\SimpleCache\\CacheProvider::doHas<\/a>"],[0,2,"<a href=\"Driver\/File.php.html#48\">Shieldon\\SimpleCache\\Driver\\File::__construct<\/a>"],[0,2,"<a href=\"Driver\/File.php.html#64\">Shieldon\\SimpleCache\\Driver\\File::doGet<\/a>"],[0,2,"<a href=\"Driver\/File.php.html#87\">Shieldon\\SimpleCache\\Driver\\File::doSet<\/a>"],[0,2,"<a href=\"Driver\/File.php.html#112\">Shieldon\\SimpleCache\\Driver\\File::doDelete<\/a>"],[0,4,"<a href=\"Driver\/File.php.html#124\">Shieldon\\SimpleCache\\Driver\\File::doClear<\/a>"],[0,1,"<a href=\"Driver\/File.php.html#144\">Shieldon\\SimpleCache\\Driver\\File::doHas<\/a>"],[0,1,"<a href=\"Driver\/File.php.html#156\">Shieldon\\SimpleCache\\Driver\\File::getFilePath<\/a>"],[0,2,"<a href=\"Driver\/Mock.php.html#32\">Shieldon\\SimpleCache\\Driver\\Mock::doGet<\/a>"],[0,1,"<a href=\"Driver\/Mock.php.html#51\">Shieldon\\SimpleCache\\Driver\\Mock::doSet<\/a>"],[0,1,"<a href=\"Driver\/Mock.php.html#69\">Shieldon\\SimpleCache\\Driver\\Mock::doDelete<\/a>"],[0,1,"<a href=\"Driver\/Mock.php.html#81\">Shieldon\\SimpleCache\\Driver\\Mock::doClear<\/a>"],[0,1,"<a href=\"Driver\/Mock.php.html#95\">Shieldon\\SimpleCache\\Driver\\Mock::doHas<\/a>"],[100,3,"<a href=\"Driver\/Mysql.php.html#35\">Shieldon\\SimpleCache\\Driver\\Mysql::__construct<\/a>"],[100,1,"<a href=\"Driver\/Mysql.php.html#65\">Shieldon\\SimpleCache\\Driver\\Mysql::connect<\/a>"],[100,2,"<a href=\"Driver\/Mysql.php.html#82\">Shieldon\\SimpleCache\\Driver\\Mysql::rebuild<\/a>"],[0,3,"<a href=\"Driver\/Redis.php.html#44\">Shieldon\\SimpleCache\\Driver\\Redis::__construct<\/a>"],[0,5,"<a href=\"Driver\/Redis.php.html#71\">Shieldon\\SimpleCache\\Driver\\Redis::connect<\/a>"],[0,2,"<a href=\"Driver\/Redis.php.html#103\">Shieldon\\SimpleCache\\Driver\\Redis::doGet<\/a>"],[0,1,"<a href=\"Driver\/Redis.php.html#125\">Shieldon\\SimpleCache\\Driver\\Redis::doSet<\/a>"],[0,1,"<a href=\"Driver\/Redis.php.html#149\">Shieldon\\SimpleCache\\Driver\\Redis::doDelete<\/a>"],[0,3,"<a href=\"Driver\/Redis.php.html#159\">Shieldon\\SimpleCache\\Driver\\Redis::doClear<\/a>"],[0,2,"<a href=\"Driver\/Redis.php.html#179\">Shieldon\\SimpleCache\\Driver\\Redis::doHas<\/a>"],[0,1,"<a href=\"Driver\/Redis.php.html#201\">Shieldon\\SimpleCache\\Driver\\Redis::getKeyName<\/a>"],[0,2,"<a href=\"Driver\/Sqlite.php.html#42\">Shieldon\\SimpleCache\\Driver\\Sqlite::__construct<\/a>"],[0,1,"<a href=\"Driver\/Sqlite.php.html#58\">Shieldon\\SimpleCache\\Driver\\Sqlite::doClear<\/a>"],[0,2,"<a href=\"Driver\/Sqlite.php.html#71\">Shieldon\\SimpleCache\\Driver\\Sqlite::rebuild<\/a>"],[33.33333333333333,2,"<a href=\"AssertTrait.php.html#34\">AssertTrait::assertArgumentString<\/a>"],[33.33333333333333,2,"<a href=\"AssertTrait.php.html#55\">AssertTrait::assertArgumentIterable<\/a>"],[50,4,"<a href=\"AssertTrait.php.html#76\">AssertTrait::assertValidTypeOfTtl<\/a>"],[0,3,"<a href=\"AssertTrait.php.html#101\">AssertTrait::assertDirectoryWritable<\/a>"],[57.14285714285714,3,"<a href=\"AssertTrait.php.html#125\">AssertTrait::assertSettingFields<\/a>"],[100,1,"<a href=\"Driver\/SqlTrait.php.html#43\">SqlTrait::rebuild<\/a>"],[100,2,"<a href=\"Driver\/SqlTrait.php.html#52\">SqlTrait::doGet<\/a>"],[100,2,"<a href=\"Driver\/SqlTrait.php.html#81\">SqlTrait::doSet<\/a>"],[100,1,"<a href=\"Driver\/SqlTrait.php.html#115\">SqlTrait::doDelete<\/a>"],[100,1,"<a href=\"Driver\/SqlTrait.php.html#131\">SqlTrait::doClear<\/a>"],[100,1,"<a href=\"Driver\/SqlTrait.php.html#148\">SqlTrait::doHas<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
