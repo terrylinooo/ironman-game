@@ -25,7 +25,7 @@
 - [Day 18 - PHP 套件設計實戰 (4) 單元測試](https://ithelp.ithome.com.tw/articles/10239373)
 - [Day 19 - PHP 套件設計實戰 (5) 抽象類別 CacheProvider 的角色定位](https://ithelp.ithome.com.tw/articles/10240039)
 - [Day 20 - PHP 套件設計實戰 (6) Cache Driver 實作](https://ithelp.ithome.com.tw/articles/10240880)
-- Day 21
+- [Day 21 - PHP 套件設計實戰 (7) 啟用 GitHub Action 持續整合測試](https://ithelp.ithome.com.tw/articles/10241571)
 - Day 22
 - Day 23
 - Day 24
