@@ -1,0 +1,11 @@
+vendor
+composer.phar
+composer.lock
+phpunit.phar
+phpunit.log
+.DS_Store
+.php_cs.cache
+.hg
+.vscode
+tmp
+.phpunit.result.cache
