@@ -27,11 +27,11 @@
 - [Day 20 - PHP 套件設計實戰 (6) Cache Driver 實作](https://ithelp.ithome.com.tw/articles/10240880)
 - [Day 21 - PHP 套件設計實戰 (7) 啟用 GitHub Action 持續整合測試](https://ithelp.ithome.com.tw/articles/10241571)
 - [Day 22 - PHP 套件設計實戰 (8) 程式碼覆蓋率 (Code Coverage)](https://ithelp.ithome.com.tw/articles/10242288)
-- Day 23
-- Day 24
-- Day 25
-- Day 26
-- Day 27
+- [Day 23 - PHP 套件設計實戰 (9) 程式碼檢閱 (Code Review) 分析](https://ithelp.ithome.com.tw/articles/10242923)
+- [Day 24 - PHP 套件設計實戰 (10) 發行 Composer 套件](https://ithelp.ithome.com.tw/articles/10243528)
+- [Day 25 - WordPress 外掛設計實戰 (1) 初始化作業](https://ithelp.ithome.com.tw/articles/10243958)
+- [Day 26 - WordPress 外掛設計實戰 (2) 使用 PHP CodeSniffer 幫助熟悉 WordPress 程式碼風格](https://ithelp.ithome.com.tw/articles/10244668)
+- [Day 27- WordPress 外掛設計實戰 (3) 選單入口、設定頁面](https://ithelp.ithome.com.tw/articles/10245365)
 - Day 28
 - Day 29
 - Day 30
