@@ -32,6 +32,8 @@
 - [Day 25 - WordPress 外掛設計實戰 (1) 初始化作業](https://ithelp.ithome.com.tw/articles/10243958)
 - [Day 26 - WordPress 外掛設計實戰 (2) 使用 PHP CodeSniffer 幫助熟悉 WordPress 程式碼風格](https://ithelp.ithome.com.tw/articles/10244668)
 - [Day 27- WordPress 外掛設計實戰 (3) 選單入口、設定頁面](https://ithelp.ithome.com.tw/articles/10245365)
-- Day 28
-- Day 29
-- Day 30
+- [Day 28- WordPress 外掛設計實戰 (4) 深入淺出 WordPress Hook](https://ithelp.ithome.com.tw/articles/10245671)
+- [Day 29- WordPress 外掛設計實戰 (5) 快取外掛功能實作](https://ithelp.ithome.com.tw/articles/10246599)
+- [Day 30 - WordPress 外掛設計實戰 (6) 外掛發行、鐵人賽總結](https://ithelp.ithome.com.tw/articles/10246680)
+
+作者：[Terry Lin](https://terryl.in/zh/)
